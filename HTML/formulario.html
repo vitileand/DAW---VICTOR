@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de contacto</title>
+</head>
+
+<body>
+    <h1>Formulario de contacto</h1>
+    <form action="">
+        <label for="nombre">Nombre</label>
+        <input type="text" placeholder="Escribe aquí tu nombre"><br><br>
+        <label for="email">Correo</label>
+        <input type="email" id="email" placeholder="ejemplo@ejemplo.com"><br><br>
+        <label for="departamento">Departamento</label>
+        <select name="departamento" id="departamento">
+            <option value="rrhh">RRHH</option>
+            <option value="mkt">MKT</option>
+            <option value="ventas">Ventas</option>
+            <option value="logistica">Logística</option>
+        </select><br><br>
+        <h4>Tipo de jornada</h4>
+        <input type="radio" name="tipoJornada" id="parcial">
+        <label for="parcial">Parcial</label><br>
+        <input type="radio" name="tipoJornada" id="completa">
+        <label for="completa">Completa</label><br>
+        <input type="radio" name="tipoJornada" id="remoto">
+        <label for="remoto">Remoto / hibrido </label><br><br>
+        <label for="cv">Adjunta CV</label><br>
+        <input type="file" name="" id="cv"><br><br>
+        <label for="">Comentarios:</label><br>
+        <textarea name="" id="">Escriba aquí sus comentarios</textarea><br><br>
+        <input type="checkbox" name="aceptarPermiso" id="permisos">
+        <label for="permisos">aceptar permisos</label><br><br>
+        <input type="submit" value="ENVIAR"><br><br>
+    </form>
+
+</body>
+
+</html>

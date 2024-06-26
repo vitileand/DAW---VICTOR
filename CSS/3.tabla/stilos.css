@@ -1,0 +1,18 @@
+.azul{
+    background-color: rgb(132, 214, 235);
+}
+.rosa{
+    background-color: rgb(245, 5, 5);
+}
+#amarillo{
+    background-color: rgb(226, 250, 7);
+}
+#morado{
+    background-color: blueviolet;
+}
+table{
+    width: 100%;
+}
+tr{
+    height: 50px;
+}
