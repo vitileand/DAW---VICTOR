@@ -1,0 +1,43 @@
+.contenedor {
+    width: 100%;
+    height: 500px;
+    border: 1px solid;
+    padding: 12px;
+    display: flex;
+    gap: 12px;
+
+
+}
+
+.cajita {
+    background-color: blueviolet;
+    padding: 8px;
+    height: 20px;
+
+}
+
+#uno {
+    justify-content: start;
+    align-items: start;
+}
+
+#dos {
+
+    justify-content: right;
+    align-items: end;
+
+}
+
+#tres {
+
+    justify-content: space-between;
+    align-items: center;
+}
+
+#cuatro {
+
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+
+}
